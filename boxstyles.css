@@ -1,0 +1,320 @@
+.OneYearBox {
+    background-color: white;
+    width: 300px;
+    height: 370px;
+    position: absolute;
+    left: 0%;
+    transform: translate(-50%, -50%);
+    margin-top: 200px;
+    text-align: center;
+    border-radius: 25px;
+}
+
+.OneYearBox p {
+    color: black;
+    font-size: 30px;
+    font-family: WorkSans-Medium;
+}
+
+.OneYearBox a {
+    color: black;
+    font-size: 17px;
+    font-family: WorkSans-Light;
+}
+
+.OneYearBox button a {
+    color: white;
+    font-size: 17px;
+    font-family: WorkSans-Light;
+}
+
+.OneYearBox button {
+    border: 0;
+    width: 130px;
+    height: 50px;
+    background: black;
+    display: block;
+    margin: 30px auto;
+    text-align: center;
+    padding: 4px 4px;
+    outline: none;
+    font-family: WorkSans-Light;
+    border-radius: 25px;
+    transition: 0.25s;
+    cursor: pointer;
+}
+
+.TenYearBox {
+    background-color: white;
+    width: 300px;
+    height: 370px;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    margin-top: 200px;
+    text-align: center;
+    border-radius: 25px;
+}
+
+.TenYearBox p {
+    color: black;
+    font-size: 30px;
+    font-family: WorkSans-Medium;
+}
+
+.TenYearBox a {
+    color: black;
+    font-size: 17px;
+    font-family: WorkSans-Light;
+}
+
+.TenYearBox button a {
+    color: white;
+    font-size: 17px;
+    font-family: WorkSans-Light;
+}
+
+.TenYearBox button {
+    border: 0;
+    width: 130px;
+    height: 50px;
+    background: black;
+    display: block;
+    margin: 30px auto;
+    text-align: center;
+    padding: 4px 4px;
+    outline: none;
+    font-family: WorkSans-Light;
+    border-radius: 25px;
+    transition: 0.25s;
+    cursor: pointer;
+}
+
+.TwentyYearBox {
+    background-color: white;
+    width: 300px;
+    height: 370px;
+    position: absolute;
+    left: 100%;
+    transform: translate(-50%, -50%);
+    margin-top: 200px;
+    text-align: center;
+    border-radius: 25px;
+}
+
+.TwentyYearBox p {
+    color: black;
+    font-size: 30px;
+    font-family: WorkSans-Medium;
+}
+
+.TwentyYearBox a {
+    color: black;
+    font-size: 17px;
+    font-family: WorkSans-Light;
+}
+
+.TwentyYearBox button a {
+    color: white;
+    font-size: 17px;
+    font-family: WorkSans-Light;
+}
+
+.TwentyYearBox button {
+    border: 0;
+    width: 130px;
+    height: 50px;
+    background: black;
+    display: block;
+    margin: 30px auto;
+    text-align: center;
+    padding: 4px 4px;
+    outline: none;
+    font-family: WorkSans-Light;
+    border-radius: 25px;
+    transition: 0.25s;
+    cursor: pointer;
+}
+
+.OneYearBoxWindow {
+    visibility: hidden;
+    background-color: white;
+    width: 1000px;
+    height: 770px;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    margin-top: 500px;
+    border-radius: 25px;
+}
+
+.OneYearBoxWindow p {
+    color: black;
+    margin-left: 35px;
+    text-align: left;
+    font-size: 30px;
+    font-family: WorkSans-Medium;
+}
+
+.OneYearBoxWindow a {
+    color: black;
+    margin-left: 35px;
+    text-align: left;
+    font-size: 40px;
+    font-family: WorkSans-Light;
+}
+
+.OneYearBoxWindow button a {
+    color: white;
+    margin-left: 0;
+    font-size: 17px;
+    font-family: WorkSans-Light;
+}
+
+.OneYearBoxWindow button {
+    border: 0;
+    width: 160px;
+    height: 50px;
+    background: black;
+    display: block;
+    margin: 0 77%;
+    margin-top: 480px;
+    text-align: center;
+    padding: 4px 4px;
+    outline: none;
+    font-family: WorkSans-Light;
+    border-radius: 25px;
+    transition: 0.25s;
+    cursor: pointer;
+}
+
+.OneYearBoxWindow img {
+    position:absolute;
+    margin-left: 96%;
+    margin-top: -75px;
+    cursor: pointer;
+}
+
+.TenYearBoxWindow {
+    visibility: hidden;
+    background-color: white;
+    width: 1000px;
+    height: 770px;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    margin-top: 500px;
+    border-radius: 25px;
+}
+
+.TenYearBoxWindow p {
+    color: black;
+    margin-left: 35px;
+    text-align: left;
+    font-size: 30px;
+    font-family: WorkSans-Medium;
+}
+
+.TenYearBoxWindow a {
+    color: black;
+    margin-left: 35px;
+    text-align: left;
+    font-size: 40px;
+    font-family: WorkSans-Light;
+}
+
+.TenYearBoxWindow button a {
+    color: white;
+    margin-left: 0;
+    font-size: 17px;
+    font-family: WorkSans-Light;
+}
+
+.TenYearBoxWindow button {
+    border: 0;
+    width: 160px;
+    height: 50px;
+    background: black;
+    display: block;
+    margin: 0 77%;
+    margin-top: 480px;
+    text-align: center;
+    padding: 4px 4px;
+    outline: none;
+    font-family: WorkSans-Light;
+    border-radius: 25px;
+    transition: 0.25s;
+    cursor: pointer;
+}
+
+.TenYearBoxWindow img {
+    position:absolute;
+    margin-left: 96%;
+    margin-top: -75px;
+    cursor: pointer;
+}
+
+.TwentyYearBoxWindow {
+    visibility: hidden;
+    background-color: white;
+    width: 1000px;
+    height: 770px;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    margin-top: 500px;
+    border-radius: 25px;
+}
+
+.TwentyYearBoxWindow p {
+    color: black;
+    margin-left: 35px;
+    text-align: left;
+    font-size: 30px;
+    font-family: WorkSans-Medium;
+}
+
+.TwentyYearBoxWindow a {
+    color: black;
+    margin-left: 35px;
+    text-align: left;
+    font-size: 40px;
+    font-family: WorkSans-Light;
+}
+
+.TwentyYearBoxWindow button a {
+    color: white;
+    margin-left: 0;
+    font-size: 17px;
+    font-family: WorkSans-Light;
+}
+
+.TwentyYearBoxWindow button {
+    border: 0;
+    width: 160px;
+    height: 50px;
+    background: black;
+    display: block;
+    margin: 0 77%;
+    margin-top: 480px;
+    text-align: center;
+    padding: 4px 4px;
+    outline: none;
+    font-family: WorkSans-Light;
+    border-radius: 25px;
+    transition: 0.25s;
+    cursor: pointer;
+}
+
+.TwentyYearBoxWindow img {
+    position:absolute;
+    margin-left: 96%;
+    margin-top: -75px;
+    cursor: pointer;
+}
+
+.thank {
+    position:absolute;
+    margin-left: 10%;
+    margin-top: -410px;
+}

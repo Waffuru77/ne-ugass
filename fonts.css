@@ -1,0 +1,59 @@
+@font-face {
+  font-family: WorkSans-Thin;
+  src: url("./fonts/WorkSans-Thin.ttf");
+}
+
+@font-face {
+  font-family: WorkSans-ThinItalic;
+  src: url("./fonts/WorkSans-ThinItalic.ttf");
+}
+
+@font-face {
+  font-family: WorkSans-SemiBold;
+  src: url("./fonts/WorkSans-SemiBold.ttf");
+}
+
+@font-face {
+  font-family: WorkSans-SemiBoldItalic;
+  src: url("./fonts/MWorkSans-SemiBoldItalic.ttf");
+}
+
+@font-face {
+  font-family: WorkSans-Regular;
+  src: url("./fonts/WorkSans-Regular.ttf");
+}
+
+@font-face {
+  font-family: WorkSans-Italic;
+  src: url("./fonts/WorkSans-Italic.ttf");
+}
+
+@font-face {
+  font-family: WorkSans-Medium;
+  src: url("./fonts/WorkSans-Medium.ttf");
+}
+
+@font-face {
+  font-family: WorkSans-MediumItalic;
+  src: url("./fonts/WorkSans-MediumItalic.ttf");
+}
+
+@font-face {
+  font-family: WorkSans-Light;
+  src: url("./fonts/WorkSans-Light.ttf");
+}
+
+@font-face {
+  font-family: WorkSans-LightItalic;
+  src: url("./fonts/WorkSans-LightItalic.ttf");
+}
+
+@font-face {
+  font-family: WorkSans-ExtraLight;
+  src: url("./fonts/WorkSans-ExtraLight.ttf");
+}
+
+@font-face {
+  font-family: WorkSans-ExtraLightItalic;
+  src: url("./fonts/WorkSans-ExtraLightItalic.ttf");
+}
