@@ -76,6 +76,11 @@ p{
     list-style: none;
     margin: 0 20px;
     cursor: pointer;
+    transition: 0.25s;
+}
+
+.menu ul a:hover {
+font-size: 17px;
 }
 
 .PremiumButton {

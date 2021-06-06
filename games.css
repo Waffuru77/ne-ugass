@@ -1,12 +1,11 @@
 .FnalBox {
     width: 200%;
-    height: 500px;
-    position: absolute;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    margin-top: 400px;
+    height: 600px;
+    position:absolute;
+    margin-top: 100px;
     text-align: left;
     border-radius: 25px;
+    left: -50%;
 }
 
 .FnalBox p {
