@@ -10,6 +10,10 @@ function MenuPremium() {
     window.location.href = "./premium.html";
 }
 
+function MenuGames() {
+    window.location.href = "./games.html";
+}
+
 function MenuThankYou() {
     window.location.href = "./thankyou.html";
 }
