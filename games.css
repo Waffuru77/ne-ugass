@@ -59,3 +59,92 @@
     border-radius: 5px;
     border: 2px solid rgba(72, 151, 255, 1);
 }
+
+@media only screen and (max-width: 1400px) { 
+    h1 {
+        color: white;
+        font-size: 40px;
+        font-family: WorkSans-Regular;
+    }
+    
+    p{
+        color: white;
+        font-size: 10px;
+        font-family: WorkSans-Light;
+    }
+
+    .box {
+        width: 300px;
+        position: absolute;
+        height: 0px;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        margin-top: 55px;
+        text-align: center;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .FnalBox {
+        width: 100%;
+        height: 400px;
+        position:absolute;
+        margin-top: 40px;
+        text-align: left;
+        border-radius: 25px;
+        left: 0%;
+    }
+
+    .FnalBox p {
+        font-size: 35px;
+    }
+
+    .FnalBox a {
+        font-size: 17px;
+    }
+    
+    .neugass-menu {
+        margin: -5px -45px;
+    }
+    
+    .menu {
+        margin-top: 0px;
+        height: 30px;
+        width: 100%;
+    }
+
+    .MenuNavigation {
+        font-family: WorkSans-Light;
+        margin: -5px 40px;
+    }
+
+    .menu ul {
+        font-size: 13px;
+    }
+
+    .menu ul a:hover {
+        font-size: 13px;
+    }
+
+    h1 {
+        color: white;
+        font-size: 5px;
+        font-family: WorkSans-Regular;
+    }
+    
+    p{
+        color: white;
+        font-size: 10px;
+        font-family: WorkSans-Light;
+    }
+
+    .box {
+        width: 100%;
+        position: absolute;
+        height: 0px;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        margin-top: 55px;
+        text-align: center;
+    }
+}
