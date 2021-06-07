@@ -19,15 +19,14 @@ p{
     background-color: white;
     margin-top: 0px;
     height: 50px;
-    width: 99.10%;
+    width: 100%;
     font-family: WorkSans-Medium;
-    position: fixed;
     border-radius: 10px;
 }
 
 .MenuNavigation {
     font-family: WorkSans-Light;
-    margin: 0px 50px;
+    margin: 0px 70px;
 }
 
 .box {
@@ -68,7 +67,6 @@ p{
 }
 
 .menu ul {
-    position: fixed;
     display: inline-flex;
 }
 
@@ -136,4 +134,51 @@ font-size: 17px;
     border-radius: 25px;
     transition: 0.25s;
     cursor: pointer;
+}
+
+@media only screen and (max-width: 768px) {
+    .neugass-menu {
+        margin: 0px -38px;
+    }
+    
+    .menu {
+        margin-top: 0px;
+        height: 40px;
+        width: 100%;
+    }
+
+    .menu ul {
+        font-size: 13px;
+    }
+
+    .menu ul a:hover {
+        font-size: 15px;
+    }
+
+    .MenuNavigation {
+        font-family: WorkSans-Light;
+        margin: 0px 15px;
+    }
+
+    h1 {
+        color: white;
+        font-size: 30px;
+        font-family: WorkSans-Regular;
+    }
+    
+    p{
+        color: white;
+        font-size: 10px;
+        font-family: WorkSans-Light;
+    }
+
+    .box {
+        width: 200px;
+        position: absolute;
+        height: 0px;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        margin-top: 55px;
+        text-align: center;
+    }
 }
