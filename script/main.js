@@ -1,5 +1,5 @@
-function MenuFizetes() {
-    window.location.href = "./fizetes.html";
+function MenuSubscription() {
+    window.location.href = "./subscription.html";
 }
 
 function MenuHome() {
