@@ -143,26 +143,26 @@ font-size: 17px;
     
     .menu {
         margin-top: 0px;
-        height: 40px;
+        height: 30px;
         width: 100%;
     }
 
     .menu ul {
-        font-size: 13px;
+        font-size: 9px;
     }
 
     .menu ul a:hover {
-        font-size: 15px;
+        font-size: 9px;
     }
 
     .MenuNavigation {
         font-family: WorkSans-Light;
-        margin: 0px 15px;
+        margin: 0px 17px;
     }
 
     h1 {
         color: white;
-        font-size: 30px;
+        font-size: 40px;
         font-family: WorkSans-Regular;
     }
     
@@ -173,7 +173,7 @@ font-size: 17px;
     }
 
     .box {
-        width: 200px;
+        width: 250px;
         position: absolute;
         height: 0px;
         left: 50%;
