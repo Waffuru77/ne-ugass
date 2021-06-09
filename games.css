@@ -9,7 +9,7 @@
 }
 
 .FnalBox p {
-    color: white;
+    color: var(--text);
     margin: 30px;
     font-size: 50px;
     font-family: WorkSans-Medium;
@@ -22,7 +22,7 @@
 }
 
 .FnalBox a {
-    color: white;
+    color: var(--text);
     font-size: 27px;
     margin: 30px;
     font-family: WorkSans-Light;
@@ -30,7 +30,7 @@
 }
 
 .FnalBox button a {
-    color: #3b3a3a;
+    color: var(--background);
     font-size: 17px;
     cursor:pointer;
     font-family: WorkSans-Medium;
@@ -40,7 +40,7 @@
     border: 0;
     width: 210px;
     height: 50px;
-    background: white;
+    background: var(--button1-background);
     display: block;
     margin: 30px;
     text-align: center;
@@ -50,14 +50,12 @@
     border-radius: 25px;
     transition: 0.25s;
     cursor: pointer;
-    border: 2px solid rgba(0, 0, 0, 0);
 }
 
 .FnalBox button:hover {
     width: 230px;
     height: 60px;
     border-radius: 5px;
-    border: 2px solid rgba(72, 151, 255, 1);
 }
 
 @media only screen and (max-width: 1400px) { 
@@ -74,6 +72,10 @@
         margin-top: 55px;
         text-align: center;
     }
+
+    .FnalBox p:hover {
+        font-size: 52px;
+    }
 }
 
 @media only screen and (max-width: 768px) {
@@ -88,6 +90,10 @@
     }
 
     .FnalBox p {
+        font-size: 35px;
+    }
+
+    .FnalBox p:hover {
         font-size: 35px;
     }
 

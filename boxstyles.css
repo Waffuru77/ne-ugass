@@ -1,5 +1,5 @@
 .FnalBox {
-    background-color: white;
+    background-color: var(--box-background);
     width: 500px;
     height: 280px;
     position: absolute;
@@ -11,19 +11,19 @@
 }
 
 .FnalBox p {
-    color: black;
+    color: var(--box-text);
     font-size: 30px;
     font-family: WorkSans-Medium;
 }
 
 .FnalBox a {
-    color: black;
+    color: var(--box-text);
     font-size: 17px;
     font-family: WorkSans-Light;
 }
 
 .FnalBox button a {
-    color: white;
+    color: var(--button2-text);
     font-size: 17px;
     font-family: WorkSans-Light;
 }
@@ -32,7 +32,7 @@
     border: 0;
     width: 130px;
     height: 50px;
-    background: black;
+    background: var(--button2-background);
     display: block;
     margin: 30px auto;
     text-align: center;
@@ -45,7 +45,7 @@
 }
 
 .FarkytaleBox {
-    background-color: white;
+    background-color: var(--box-background);
     width: 500px;
     height: 280px;
     position: absolute;
@@ -57,19 +57,19 @@
 }
 
 .FarkytaleBox p {
-    color: black;
+    color: var(--box-text);
     font-size: 30px;
     font-family: WorkSans-Medium;
 }
 
 .FarkytaleBox a {
-    color: black;
+    color: var(--box-text);
     font-size: 17px;
     font-family: WorkSans-Light;
 }
 
 .FarkytaleBox button a {
-    color: white;
+    color: var(--button2-text);
     font-size: 17px;
     font-family: WorkSans-Light;
 }
@@ -78,7 +78,7 @@
     border: 0;
     width: 150px;
     height: 50px;
-    background: black;
+    background: var(--button2-background);
     display: block;
     margin: 30px auto;
     text-align: center;

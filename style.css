@@ -1,22 +1,17 @@
-body {
-    background: #3b3a3a;
-    font-family: WorkSans-Light;
-}
-
 h1 {
-    color: white;
+    color: var(--text);
     font-size: 100px;
     font-family: WorkSans-Regular;
 }
 
 p{
-    color: white;
+    color: var(--text);
     font-size: 20px;
     font-family: WorkSans-Light;
 }
 
 .menu {
-    background-color: white;
+    background-color: var(--menu-background);
     margin-top: 0px;
     height: 50px;
     width: 100%;
@@ -43,7 +38,7 @@ p{
     border: 0;
     width: 130px;
     height: 50px;
-    background: white;
+    background: var(--button1-background);
     display: block;
     margin: 15px auto;
     text-align: center;
@@ -55,13 +50,22 @@ p{
     cursor: pointer;
 }
 
+.box button a {
+    color: var(--button1-text);
+}
+
+.box button:hover {
+    width: 140px;
+    border-radius: 5px;
+}
+
 .active {
-    color: rgb(72, 151, 255);
+    color: var(--active);
 }
 
 .box a {
     font-family: WorkSans-Regular;
-    color:black;
+    color:var(--button-text);
     text-decoration: none;
     font-size: 15px;
 }
@@ -79,61 +83,6 @@ p{
 
 .menu ul a:hover {
 font-size: 17px;
-}
-
-.PremiumButton {
-    margin-top: 480px;
-}
-
-.PremiumBox {
-    background-color: white;
-    width: 700px;
-    height: 270px;
-    position: absolute;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    margin-top: 570px;
-    border-radius: 25px;
-}
-
-.PremiumBox p {
-    color: black;
-    margin-left: 35px;
-    text-align: left;
-    font-size: 30px;
-    font-family: WorkSans-Medium;
-}
-
-.PremiumBox a {
-    color: black;
-    margin-left: 35px;
-    text-align: left;
-    font-size: 17px;
-    font-family: WorkSans-Light;
-}
-
-.PremiumBox button a {
-    color: white;
-    margin-left: 0;
-    font-size: 17px;
-    font-family: WorkSans-Light;
-}
-
-.PremiumBox button {
-    border: 0;
-    width: 160px;
-    height: 50px;
-    background: black;
-    display: block;
-    margin: 0 72%;
-    margin-top: 50px;
-    text-align: center;
-    padding: 4px 4px;
-    outline: none;
-    font-family: WorkSans-Light;
-    border-radius: 25px;
-    transition: 0.25s;
-    cursor: pointer;
 }
 
 @media only screen and (max-width: 768px) {

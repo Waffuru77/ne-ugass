@@ -1,0 +1,17 @@
+:root {
+    --background: #3b3a3a;
+    --text: white;
+    --box-text: black;
+    --menu-background: white;
+    --button1-background: white;
+    --button2-background: black;
+    --button1-text: black;
+    --button2-text: white;
+    --active: rgb(72, 151, 255);
+    --box-background: white;
+}
+
+body {
+    background: var(--background);
+    font-family: WorkSans-Light;
+}
