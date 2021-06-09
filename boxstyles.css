@@ -1,49 +1,3 @@
-.NewsBox {
-    background-color: var(--box-background);
-    width: 300px;
-    height: 560px;
-    position: absolute;
-    margin-top: 100px;
-    text-align: center;
-    border-radius: 25px;
-}
-
-.NewsBox p {
-    color: var(--box-text);
-    font-size: 30px;
-    font-family: WorkSans-Medium;
-}
-
-.NewsBox a {
-    color: var(--box-text);
-    font-size: 17px;
-    font-family: WorkSans-Light;
-}
-
-.NewsBox button a {
-    color: var(--button2-text);
-    font-size: 17px;
-    font-family: WorkSans-Light;
-}
-
-.NewsBox button {
-    border: 0;
-    width: 130px;
-    height: 50px;
-    background: var(--button2-background);
-    display: block;
-    margin: 30px auto;
-    text-align: center;
-    padding: 4px 4px;
-    outline: none;
-    font-family: WorkSans-Light;
-    border-radius: 25px;
-    transition: 0.25s;
-    cursor: pointer;
-}
-
-/* Games Tab */
-
 .FnalBox {
     background-color: var(--box-background);
     width: 500px;
@@ -136,11 +90,7 @@
     cursor:not-allowed;
 }
 
-@media only screen and (max-width: 1147px) {
-    .NewsBox {
-        width: 300px;
-    }
-    
+@media only screen and (max-width: 1147px) {  
     .FnalBox {
         left: 90%;
         transform: translate(-105%, -50%);
@@ -165,9 +115,5 @@
         left: 105%;
         transform: translate(-105%, -50%);
         margin-top: 500px;
-    }
-
-    .NewsBox {
-        display: none;
     }
 }

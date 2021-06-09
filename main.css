@@ -1,5 +1,8 @@
 :root {
-    --background: #3b3a3a;
+    /* 3b3b3a, 26bb9b, rgb(72, 151, 255);*/
+
+    --background1: #26bb9b;
+    --background2: #199278;
     --text: white;
     --box-text: black;
     --menu-background: white;
@@ -7,11 +10,15 @@
     --button2-background: black;
     --button1-text: black;
     --button2-text: white;
-    --active: rgb(72, 151, 255);
+    --active: #26bb9b;
     --box-background: white;
 }
 
 body {
-    background: var(--background);
+    background: radial-gradient(
+        circle,
+        var(--background1) 0%,
+        var(--background2) 100%
+      );
     font-family: WorkSans-Light;
 }
