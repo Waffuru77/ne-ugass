@@ -62,15 +62,7 @@
 
 @media only screen and (max-width: 1400px) { 
     h1 {
-        color: white;
         font-size: 40px;
-        font-family: WorkSans-Regular;
-    }
-    
-    p{
-        color: white;
-        font-size: 10px;
-        font-family: WorkSans-Light;
     }
 
     .box {
@@ -127,15 +119,7 @@
     }
 
     h1 {
-        color: white;
         font-size: 5px;
-        font-family: WorkSans-Regular;
-    }
-    
-    p{
-        color: white;
-        font-size: 10px;
-        font-family: WorkSans-Light;
     }
 
     .box {
