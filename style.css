@@ -51,7 +51,7 @@ p{
 }
 
 .box button a {
-    color: var(--button1-text);
+    color: var(--background1);
 }
 
 .box button:hover {
@@ -83,7 +83,8 @@ p{
 }
 
 .menu ul a:hover {
-font-size: 17px;
+    font-size: 17px;
+    color: var(--active2);
 }
 
 @media only screen and (max-width: 768px) {
