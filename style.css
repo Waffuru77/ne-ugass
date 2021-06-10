@@ -71,6 +71,7 @@ p{
 }
 
 .menu ul {
+    color: var(--button1-text);
     display: inline-flex;
 }
 

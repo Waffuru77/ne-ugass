@@ -2,23 +2,30 @@
     /* 3b3b3a, 26bb9b, rgb(72, 151, 255);*/
 
     --background1: #26bb9b;
-    --background2: #199278;
-    --text: white;
-    --box-text: black;
-    --menu-background: white;
-    --button1-background: white;
-    --button2-background: black;
-    --button1-text: black;
-    --button2-text: white;
+    --background2: #1cb896;
+    --text: #d6fdf5;
+    --box-text: #0f5546;
+    --menu-background: #d6fdf5;
+    --button1-background: #d6fdf5;
+    --button2-background: #0f5546;
+    --button1-text: #0f5546;
+    --button2-text: #d6fdf5;
     --active: #26bb9b;
-    --box-background: white;
+    --box-background: #d6fdf5;
+}
+
+hr {
+    border: none;
+    height: 2px;
+    background-color: var(--box-text);
 }
 
 body {
-    background: radial-gradient(
-        circle,
-        var(--background1) 0%,
-        var(--background2) 100%
+    height: 100%;
+    background: linear-gradient(
+        180deg,
+        var(--background1) 5%,
+        var(--background2) 95%
       );
     font-family: WorkSans-Light;
 }
