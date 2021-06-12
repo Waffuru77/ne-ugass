@@ -1,3 +1,43 @@
+body > #clipping-bg {
+    margin-top: 180px;
+    height: 100%;
+    width: 99.6%;
+    background-color: var(--text);
+    clip-path: polygon(0 23%, 100% 10%, 100% 52%, 0 65%);
+    position: absolute;
+    z-index: -1;
+}
+
+.in-bg h1{
+    margin-top: 110px;
+    color: var(--active);
+}
+
+.btn-two button a {
+    color: var(--text);
+}
+
+.btn-two button {
+    border: 0;
+    width: 130px;
+    height: 50px;
+    background: var(--active);;
+    display: block;
+    margin: 15px auto;
+    text-align: center;
+    padding: 4px 4px;
+    outline: none;
+    font-family: WorkSans-Light;
+    border-radius: 25px;
+    transition: 0.25s;
+    cursor: pointer;
+}
+
+.btn-two button:hover {
+    width: 140px;
+    border-radius: 5px;
+}
+
 h1 {
     color: var(--text);
     font-size: 100px;
@@ -34,7 +74,7 @@ p{
     text-align: center;
 }
 
-.box button {
+.btn-one button {
     border: 0;
     width: 130px;
     height: 50px;
@@ -47,14 +87,14 @@ p{
     font-family: WorkSans-Light;
     border-radius: 25px;
     transition: 0.25s;
-    cursor: pointer;
+    cursor: not-allowed;
 }
 
-.box button a {
+.btn-one button a {
     color: var(--background1);
 }
 
-.box button:hover {
+.btn-one button:hover {
     width: 140px;
     border-radius: 5px;
 }
