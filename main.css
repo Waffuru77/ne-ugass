@@ -30,3 +30,17 @@ body {
       );
     font-family: WorkSans-Light;
 }
+
+::-webkit-scrollbar {
+    width: 12px;    
+    background-color: var(--button2-background);
+}
+
+::-webkit-scrollbar-thumb {
+    border-radius: 5px;
+    background-color: #a3e7da;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background-color: #76c9b9; 
+}
