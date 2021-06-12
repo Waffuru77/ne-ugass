@@ -7,5 +7,5 @@ function MenuGames() {
 }
 
 function MenuDiscord() {
-    window.location.href = "./discord.html";
+    window.location.href = "Discord/index.html";
 }
