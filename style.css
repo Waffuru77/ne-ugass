@@ -128,9 +128,22 @@ p{
 }
 
 @media only screen and (max-width: 768px) {
+    .btn-two button a {
+        color: var(--background1);
+    }
+    
+    .btn-two button {
+        background: var(--text);
+    }
+
     body > #clipping-bg {
-        margin-top: 80px;
-    }  
+        display: none;
+    }
+
+    .in-bg h1{
+        margin-top: 10px;
+        color: var(--text);
+    }
 
     .neugass-menu {
         margin: -5px -45px;
