@@ -15,6 +15,14 @@
     --box-background: #d6fdf5;
 }
 
+#grey {
+    --background1: #3b3b3a;
+    --background2: #636363;
+    --text: #ffffff;
+    --active: #4897FF;
+    --menu-background: #ffffff;
+}
+
 hr {
     border: none;
     height: 2px;
@@ -32,6 +40,12 @@ body {
 }
 
 ::-webkit-scrollbar {
+    display:none;
+}
+
+/*
+
+::-webkit-scrollbar {
     width: 10px;
     background-color: var(--button2-background);
 }
@@ -44,3 +58,5 @@ body {
 ::-webkit-scrollbar-thumb:hover {
     background-color: #76c9b9; 
 }
+
+*/
