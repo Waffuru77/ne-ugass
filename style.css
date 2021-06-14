@@ -8,6 +8,38 @@ body > #clipping-bg {
     z-index: -1;
 }
 
+.theme-box {
+    background-color: var(--menu-background);
+    margin-top: 20px;
+    margin-left: 99%;
+    height: 90px;
+    width: 200px;
+    font-family: WorkSans-Medium;
+    border-radius: 10px;
+    transition: 1s;
+    display: table;
+}
+
+.theme-box:hover {
+    margin-left: 90%;
+}
+
+.theme-box ul {
+    color: var(--button1-text);
+    cursor: pointer;
+}
+
+.theme-box ul a {
+    list-style: none;
+    margin: 0 20px;
+    cursor: pointer;
+    transition: 0.25s;
+}
+
+.theme-box ul:hover {
+    color: var(--active2);
+}
+
 .in-bg h1{
     margin-top: 110px;
     color: var(--active);
@@ -59,6 +91,23 @@ p{
     border-radius: 10px;
 }
 
+.menu ul {
+    color: var(--button1-text);
+    display: inline-flex;
+}
+
+.menu ul a {
+    list-style: none;
+    margin: 0 20px;
+    cursor: pointer;
+    transition: 0.25s;
+}
+
+.menu ul a:hover {
+    font-size: 17px;
+    color: var(--active2);
+}
+
 .MenuNavigation {
     font-family: WorkSans-Light;
     margin: 0px 70px;
@@ -87,7 +136,7 @@ p{
     font-family: WorkSans-Light;
     border-radius: 25px;
     transition: 0.25s;
-    cursor: not-allowed;
+    cursor: pointer;
 }
 
 .btn-one button a {
@@ -110,24 +159,16 @@ p{
     font-size: 15px;
 }
 
-.menu ul {
-    color: var(--button1-text);
-    display: inline-flex;
-}
-
-.menu ul a {
-    list-style: none;
-    margin: 0 20px;
-    cursor: pointer;
-    transition: 0.25s;
-}
-
-.menu ul a:hover {
-    font-size: 17px;
-    color: var(--active2);
-}
-
 @media only screen and (max-width: 768px) {
+    .theme-box {
+        margin-left: 95%;
+    }
+    
+    .theme-box:hover {
+        margin-left: 70%;
+    }
+    
+
     .btn-two button a {
         color: var(--background1);
     }

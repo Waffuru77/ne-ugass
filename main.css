@@ -13,6 +13,8 @@
     --active: #26bb9b;
     --active2: #1abe9b;
     --box-background: #d6fdf5;
+
+    transition: 0.25s;
 }
 
 #grey {
@@ -20,7 +22,31 @@
     --background2: #636363;
     --text: #ffffff;
     --active: #4897FF;
+    --active2: #61a5fd;
     --menu-background: #ffffff;
+    --box-background: #ffffff;
+    --box-text: #000000;
+    --button1-background: #ffffff;
+    --button2-background: #000000;
+    --button1-text: #000000;
+
+    transition: 0.25s;
+}
+
+#orange {
+    --background1: #ff9b29;
+    --background2: #ff9d2d;
+    --text: #ffefd7;
+    --active: #ff9b29;
+    --active2: #ff9d2d;
+    --menu-background: #ffefd7;
+    --box-background: #ffefd7;
+    --box-text: #332100;
+    --button1-background: #ffefd7;
+    --button2-background: #332100;
+    --button1-text: #332100;
+
+    transition: 0.25s;
 }
 
 hr {
