@@ -42,3 +42,7 @@ function MenuGames() {
 function MenuDiscord() {
     window.location.href = "./discord.html";
 }
+
+function MenuWaffuru() {
+    window.location.href = "./waffuru.html";
+}

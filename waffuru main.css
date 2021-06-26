@@ -1,0 +1,15 @@
+:root {
+    --background: #45425A;
+    --text: #ffffff;
+    --button-background: #45425A;
+    --box-background: #646080;
+    --active: #413977;
+}
+
+.active {
+    color: var(--active);
+}
+
+/*cool colors:
+purpleish: #7658fc
+dark blue/grey: #475477*/

@@ -1,0 +1,112 @@
+body {
+    height: 100%;
+    background: var(--background);
+}
+
+h1 {
+    color: var(--text);
+    font-size: 100px;
+    transition: 0.25s;
+}
+
+p{
+    color: var(--text);
+    font-size: 20px;
+    transition: 0.50s;
+}
+
+.box1 {
+    background-color: var(--box-background);
+    width: 25%;
+    height: 60%;
+    position: absolute;
+    margin: 20px;
+    text-align: center;
+    border-radius: 25px;
+    box-shadow: -10px 10px 10px rgba(0, 0, 0, 0.15);
+}
+
+.box1 button {
+    border: 0;
+    width: 130px;
+    height: 50px;
+    background: var(--button-background);
+    margin: 15px auto;
+    text-align: center;
+    border-radius: 25px;
+    transition: 0.25s;
+    cursor: pointer;
+}
+
+.box1 button a {
+    color: var(--box-background);
+}
+
+.box1 a {
+    color:var(--button-text);
+    text-decoration: none;
+    font-size: 15px;
+}
+
+.menu {
+    background-color: var(--box-background);
+    margin-top: 0px;
+    height: 50px;
+    width: 100%;
+    font-family: WorkSans-Medium;
+    border-radius: 10px;
+    box-shadow: -10px 10px 10px rgba(0, 0, 0, 0.15);
+}
+
+.menu ul {
+    color: var(--button-background);
+    display: inline-flex;
+}
+
+.menu ul a {
+    list-style: none;
+    margin: 0 20px;
+    cursor: pointer;
+    transition: 0.25s;
+}
+
+.menu ul a:hover {
+    font-size: 17px;
+    color: var(--active);
+}
+
+@media only screen and (max-width: 768px) {
+    .neugass-menu {
+        margin: -5px -45px;
+    }
+    
+    .menu {
+        margin-top: 0px;
+        height: 30px;
+        width: 100%;
+    }
+
+    .MenuNavigation {
+        font-family: WorkSans-Light;
+        margin: -5px 40px;
+    }
+
+    .menu ul {
+        font-size: 13px;
+    }
+
+    .menu ul a:hover {
+        font-size: 13px;
+    }
+
+    .box1 {
+        width: 40%;
+        height: 60%;
+    }
+    
+
+    .box1 button {
+        width: 130px;
+        height: 50px;
+    }
+}
