@@ -1,15 +1,67 @@
 :root {
     --background: #45425A;
-    --text: #ffffff;
+    --clip-background: #4f4b64;
+    --text: #CDC5FF;
     --button-background: #45425A;
     --box-background: #646080;
-    --active: #413977;
+    --active: #CDC5FF;
+}
+
+#purple-color {
+    --background: #4E148C;
+    --clip-background: #58189c;
+    --text: #9e59e9;
+    --button-background: #4E148C;
+    --box-background: #6b22b9;
+    --active: #9e59e9;
+}
+
+#cerise-color {
+    --background: #c9375b;
+    --clip-background: #d13e63;
+    --text: #ffa0b8;
+    --button-background: #DA4167;
+    --box-background: #df496e;
+    --active: #ffa0b8;
 }
 
 .active {
     color: var(--active);
 }
 
+body > #circle-clipping-bg {
+    margin-top: -50px;
+    height: 100%;
+    width: 99.6%;
+    background-color: var(--clip-background);
+    clip-path: circle(50% at 50% 50%);
+    position: absolute;
+    z-index: -1;
+}
+
+body {
+    height: 100%;
+    background: var(--background);
+    transition: 0.25s;
+}
+
+#default {
+    background: #45425A;
+}
+
+#purple {
+    background: #4E148C;
+}
+
+#cerise {
+    background: #DA4167;
+}
+
+
 /*cool colors:
 purpleish: #7658fc
 dark blue/grey: #475477*/
+
+::-webkit-scrollbar {
+    display:none;
+}

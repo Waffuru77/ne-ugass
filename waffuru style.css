@@ -1,12 +1,12 @@
-body {
-    height: 100%;
-    background: var(--background);
-}
-
 h1 {
     color: var(--text);
     font-size: 100px;
     transition: 0.25s;
+    text-shadow: -5px 5px rgba(205, 197, 255, 0.2);
+}
+
+h1:hover {
+    font-size: 105px;
 }
 
 p{
@@ -17,25 +17,27 @@ p{
 
 .box1 {
     background-color: var(--box-background);
-    width: 25%;
+    width: 23%;
     height: 60%;
     position: absolute;
     margin: 20px;
     text-align: center;
     border-radius: 25px;
-    box-shadow: -10px 10px 10px rgba(0, 0, 0, 0.15);
+    box-shadow: 0 0 7px 7px rgba(0, 0, 0, 0.15);
 }
 
 .box1 button {
-    border: 0;
-    width: 130px;
+    border-color: var(--active);
+    border: 1.5px solid var(--active);
+    width: 50px;
     height: 50px;
     background: var(--button-background);
-    margin: 15px auto;
+    margin: 15px 5px;
     text-align: center;
-    border-radius: 25px;
+    border-radius: 10px;
     transition: 0.25s;
     cursor: pointer;
+    box-shadow: 0 0 4px 4px rgba(0, 0, 0, 0.1);
 }
 
 .box1 button a {
@@ -48,65 +50,178 @@ p{
     font-size: 15px;
 }
 
+.box2 {
+    background-color: var(--box-background);
+    width: 15%;
+    height: 15%;
+    position: absolute;
+    margin: 20px 83.2%;
+    text-align: center;
+    border-radius: 25px;
+    box-shadow: 0 0 7px 7px rgba(0, 0, 0, 0.15);
+}
+
+.box2 button {
+    display: block;
+    border: 0;
+    width: 130px;
+    height: 50px;
+    background: var(--button-background);
+    margin: 15px auto;
+    text-align: center;
+    border-radius: 25px;
+    transition: 0.25s;
+    cursor: pointer;
+    box-shadow: 0 0 4px 4px rgba(0, 0, 0, 0.1);
+}
+
+.box2 button a {
+    color: var(--box-background);
+}
+
+.box2 a {
+    color:var(--button-text);
+    text-decoration: none;
+    font-size: 15px;
+}
+
+.logo-menu {
+    background-color: var(--box-background);
+    height: 40px;
+    margin-left: 1%;
+    width: 8%;
+    font-family: WorkSans-Medium;
+    position: absolute;
+    border-radius: 10px;
+    box-shadow: 0 0 7px 7px rgba(0, 0, 0, 0.15);
+}
+
+.logo-menu ul {
+    left: 50%;
+    transform: translate(-50%, -50%);
+    margin-top: 19px;
+    margin-left: 57px;
+    color: var(--button-background);
+    display: inline-flex;
+}
+
+.logo-menu ul a {
+    list-style: none;
+    cursor: default;
+    transition: 0.25s;
+    text-shadow: -0.5px 0.5px rgba(0, 0, 0, 0.2);
+}
+
 .menu {
     background-color: var(--box-background);
     margin-top: 0px;
-    height: 50px;
-    width: 100%;
+    margin-left: 10%;
+    height: 40px;
+    width: 89%;
     font-family: WorkSans-Medium;
     border-radius: 10px;
-    box-shadow: -10px 10px 10px rgba(0, 0, 0, 0.15);
+    box-shadow: 0 0 7px 7px rgba(0, 0, 0, 0.15);
 }
 
 .menu ul {
+    margin-top: 10px;
     color: var(--button-background);
     display: inline-flex;
 }
 
 .menu ul a {
     list-style: none;
-    margin: 0 20px;
+    margin-left: -75px;
+    margin-right: 120px;
     cursor: pointer;
-    transition: 0.25s;
+    transition: 0.2s;
+    text-shadow: -0.5px 0.5px rgba(0, 0, 0, 0.2);
 }
 
 .menu ul a:hover {
-    font-size: 17px;
     color: var(--active);
+    text-shadow: -1px 1px rgba(205, 197, 255, 0.2);
+}
+
+.middle-box {
+    width: 850px;
+    position: absolute;
+    height: 0px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    margin-top: 55px;
+    text-align: center;
+}
+
+.in-clip button {
+    border: 0;
+    width: 130px;
+    height: 50px;
+    background: var(--active);
+    display: block;
+    margin: 15px auto;
+    text-align: center;
+    padding: 4px 4px;
+    outline: none;
+    font-family: WorkSans-Light;
+    border-radius: 25px;
+    transition: 0.25s;
+    cursor: pointer;
+}
+
+.in-clip button a {
+    color: var(--clip-background);
 }
 
 @media only screen and (max-width: 768px) {
-    .neugass-menu {
-        margin: -5px -45px;
+    body > #circle-clipping-bg {
+        display: none;
     }
-    
-    .menu {
-        margin-top: 0px;
-        height: 30px;
-        width: 100%;
+
+    h1 {
+        font-size: 40px;
+    }
+
+    p {
+        font-size: 10px;
+    }
+
+    .logo-menu {
+        display: none;
     }
 
     .MenuNavigation {
         font-family: WorkSans-Light;
-        margin: -5px 40px;
+        margin: -3px 60px;
     }
 
+    .box1 {
+        margin-top:100%;
+        width: 40%;
+        height: 30%;
+    }
+    
+    .box1 button {
+        width: 130px;
+        height: 50px;
+    }
+
+    .menu {
+        margin-left: 0;
+        height: 30px;
+        width: 100%;
+    }
+    
     .menu ul {
         font-size: 13px;
     }
 
-    .menu ul a:hover {
-        font-size: 13px;
-    }
-
-    .box1 {
-        width: 40%;
-        height: 60%;
-    }
-    
-
-    .box1 button {
-        width: 130px;
-        height: 50px;
+    .middle-box {
+        width: 280px;
+        height: 0px;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        margin-top: 55px;
+        text-align: center;
     }
 }
