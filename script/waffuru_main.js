@@ -29,6 +29,10 @@ function MenuYoutube() {
     window.location.href = "./youtube.html";
 }
 
+function MenuVideos() {
+    window.location.href = "./videos.html";
+}
+
 function MenuNeugass() {
     window.location.href = "./index.html";
 }
