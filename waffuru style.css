@@ -178,12 +178,24 @@ p{
         display: none;
     }
 
+    .box1 {
+        display: none;
+    }
+
+    .box2 {
+        display: none;
+    }
+
     h1 {
-        font-size: 40px;
+        font-size: 50px;
+    }
+
+    h1:hover {
+        font-size: 50px;
     }
 
     p {
-        font-size: 10px;
+        font-size: 20px;
     }
 
     .logo-menu {

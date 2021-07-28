@@ -160,9 +160,15 @@ p{
     font-size: 15px;
 }
 
+@media only screen and (max-width: 1147px) {  
+    .theme-box {
+        display: none;
+    }
+}
+
 @media only screen and (max-width: 768px) {
     .theme-box {
-        margin-left: 95%;
+        display: none;
     }
     
     .theme-box:hover {
